@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e0e29d96-6f47-45de-a8e8-57cdc0ffb2e3"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="report_zoomdata">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://lab.pwc.com/us/shared/vyiqw8f7os
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="6f5ba9ec-0b0e-456c-bc75-fe51ced25a1f"
+	name="report_zoomdataRepository"
+	relativepath="report_zoomdataRepository.rxrep">
+		<codegen
+		classname="report_zoomdataRepository"
+		namespace="report_zoomdata">
+		</codegen>
+		<rootfolder
+		id="afc97220-dea7-42e4-9d08-353e6ec6331c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

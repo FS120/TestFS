@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c8f49142-08fd-4283-923b-c8e5d5de8ab9"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="zoomreport2">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="c2047b0d-0ede-496b-a893-f3b44f580bf4">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="462c5b13-89c6-4339-84b2-1252aba3e1b9"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="74a0e3f3-54e5-49f0-aa68-f1271f3f1291"
+	name="zoomreport2Repository"
+	relativepath="zoomreport2Repository.rxrep">
+		<codegen
+		classname="zoomreport2Repository"
+		namespace="zoomreport2">
+		</codegen>
+		<rootfolder
+		id="a503252b-f7b1-4fd8-af08-ae997bbb2ae4"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="WebTestRepository"
+id="68266cae-bb6a-4b1f-a566-da769ef70b0c">
+  <codegen
+  classname="WebTestRepository"
+  namespace="WebTest"/>
+  <rootfolder
+  name="Root"
+  id="a903fd14-f7ce-40d1-a0ae-a26b479e107b"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

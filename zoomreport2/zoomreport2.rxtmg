@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="zoomreport2"
+      id="2828a5a5-248c-4d48-b5cc-347f573d9fad"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="zoomreport2"
+      id="2828a5a5-248c-4d48-b5cc-347f573d9fad"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
